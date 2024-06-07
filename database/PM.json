@@ -1,0 +1,503 @@
+TODO: remove underscores from ingredients and recipes names.
+{
+    "ingredients": [ // TODO: sort in alphabethical order.
+        { "name": "COOKBOOK", "chapter": 4 },
+        { "name": "JAPAN_EXCLUSIVE"},
+        { "name": "INTERNATIONAL_EXCLUSIVE"},
+        { "name": "INVALID"},
+
+        { "name": "Apple", "chapter": 3 },
+        { "name": "Cake_Mix", "chapter": 4 },
+        { "name": "Egg", "chapter": 2 },
+        { "name": "Goomnut", "chapter": 0 },
+        { "name": "Blue_Berry", "chapter": 6 },
+        { "name": "Red_Berry", "chapter": 6 },
+        { "name": "Yellow_Berry", "chapter": 6 },
+        { "name": "Koopa_Leaf", "chapter": 1 },
+        { "name": "Strange_Leaf", "chapter": 3 },
+        { "name": "Dried_Pasta", "chapter": 2 },
+        { "name": "Iced_Potato", "chapter": 7 },
+        { "name": "Mushroom", "chapter": 0 },
+        { "name": "Volt_Shroom", "chapter": 1 },
+        { "name": "Super_Shroom", "chapter": 0 },
+        { "name": "Life_Shroom", "chapter": 2 },
+        { "name": "Coconut", "chapter": 5 },
+        { "name": "Fire_Flower", "chapter": 0 },
+        { "name": "Fried_Shroom", "chapter": 1 },
+        { "name": "Potato_Salad", "chapter": 7 },
+        { "name": "Stinky_Herb", "chapter": 6 },
+        { "name": "Whacka's_Bump", "chapter": 2 },
+        { "name": "Shroom_Steak", "chapter": 3 },
+        { "name": "Dried_Fruit", "chapter": 2 },
+        { "name": "Dried_Shroom", "chapter": 1 },
+        { "name": "Special_Shake", "chapter": 4 },
+        { "name": "Jammin'_Jelly", "chapter": 1 },
+        { "name": "Lemon", "chapter": 2 },
+        { "name": "Lime", "chapter": 2 },
+        { "name": "Melon", "chapter": 5 },
+        { "name": "Bubble_Berry", "chapter": 6 },
+        { "name": "Hot_Shroom", "chapter": 1 },
+        { "name": "Spaghetti", "chapter": 2 },
+        { "name": "Mystery?", "chapter": 3 }
+    ],
+
+    "recipes": [ // complete recipes list.
+        {
+            "name": "Apple_Pie",
+            "mystery?": true,
+            "ingredients": [
+                ["Apple", "Cake_Mix"]
+            ]
+        },
+        {
+            "name": "Big_Cookie",
+            "mystery?": true,
+            "ingredients": [
+                ["Egg", "Cake_Mix"],
+                ["Goomnut", "Cake_Mix"],
+                ["Red Berry", "Cake_Mix"],
+                ["Yellow Berry", "Cake_Mix"],
+                ["Blue Berry", "Cake_Mix"]
+            ]
+        },
+        {
+            "name": "Bland_Meal",
+            "mystery?": true,
+            "ingredients": [
+                ["Koopa_Leaf", "Goomnut"],
+                ["Koopa_Leaf", "Red_Berry"],
+                ["Koopa_Leaf", "Yellow_Berry"],
+                ["Koopa_Leaf", "Blue_Berry"],
+                ["Strange_Leaf", "Goomnut"],
+                ["Strange_Leaf", "Dried_Pasta"],
+                ["Iced_Potato", "Mushroom"],
+                ["Iced_Potato", "Volt_Shroom"],
+                ["Iced_Potato", "Super_Shroom"],
+                ["Iced_Potato", "Life_Shroom"],
+                ["Iced_Potato", "Cake_Mix"],
+                ["Iced_Potato", "Egg"],
+                ["Iced_Potato", "Coconut"],
+                ["Iced_Potato", "Dried_Pasta"],
+                ["Fire_Flower", "Goomnut"],
+                ["Fire_Flower", "Volt_Shroom"],
+                ["Fire_Flower", "Super_Shroom"],
+                ["Fire_Flower", "Life_Shroom"],
+                ["Fried_Shroom", "Potato_Salad"],
+                ["Egg", "Mushroom"],
+                ["Egg", "Volt_Shroom"],
+                ["Egg", "Super_Shroom"],
+                ["Egg", "Life_Shroom"],
+                ["Egg", "Dried_Pasta"],
+                ["Dried_Pasta", "Goomnut"],
+                ["Dried_Pasta", "Coconut"],
+                ["Dried_Pasta", "Mushroom"],
+                ["Dried_Pasta", "Volt_Shroom"],
+                ["Dried_Pasta", "Super_Shroom"],
+                ["Dried_Pasta", "Life_Shroom"],
+                ["Dried_Pasta", "Red_Berry"],
+                ["Dried_Pasta", "Yellow_Berry"],
+                ["Dried_Pasta", "Blue_Berry"]
+            ]
+        },
+        {
+            "name": "Boiled_Egg",
+            "mystery?": true,
+            "ingredients": [
+                ["Egg", "Strange_Leaf"],
+                ["Egg", "Stinky_Herb"]
+            ]
+        },
+        {
+            "name": "Cake",
+            "mystery?": false,
+            "ingredients": [
+                ["Cake_Mix"]
+            ]
+        },
+        {
+            "name": "Coco Pop",
+            "mystery?": false,
+            "ingredients": [
+                ["Coconut", "Cake_Mix"]
+            ]
+        },
+        {
+            "name": "Deluxe_Feast",
+            "mystery?": false,
+            "ingredients": [
+                ["Whacka's_Bump", "Strange_Leaf"],
+                ["Potato_Salad", "Shroom_Steak"]
+            ]
+        },
+        {
+            "name": "Dizzy_Dial",
+            "mystery?": true,
+            "ingredients": [
+                ["Strange_Leaf", "COOKBOOK"],
+                ["Strange_Leaf", "Volt_Shroom"],
+                ["Strange_Leaf", "Stinky_Herb"]
+            ]
+        },
+        {
+            "name": "Egg_Missile",
+            "mystery?": true,
+            "ingredients": [
+                ["Fire_Flower", "Egg"]
+            ]
+        },
+        {
+            "name": "Electro_Pop",
+            "mystery?": false,
+            "ingredients": [
+                ["Volt_Shroom", "Cake_Mix"]
+            ]
+        },
+        {
+            "name": "Electro_Pop",
+            "mystery?": false,
+            "ingredients": [
+                ["Volt_Shroom", "Cake_Mix"]
+            ]
+        },
+        {
+            "name": "Fire_Flower",
+            "mystery?": true,
+            "ingredients": [
+                ["Dried_Fruit", "Strange_Leaf"]
+            ]
+        },
+        {
+            "name": "Fire_Pop",
+            "mystery?": false,
+            "ingredients": [
+                ["Cake_Mix", "Fire_Flower"]
+            ]
+        },
+        {
+            "name": "Fried_Egg",
+            "mystery?": true,
+            "ingredients": [
+                ["Egg"]
+            ]
+        },
+        {
+            "name": "Fried_Shroom",
+            "mystery?": true,
+            "ingredients": [
+                ["Dried_Shroom", "COOKBOOK"],
+                ["Mushroom"],
+                ["Super_Shroom"],
+                ["Dried_Shroom", "Mushroom"],
+                ["Dried_Shroom", "Fire_Flower"]
+            ]
+        },
+        {
+            "name": "Frozen_Fries",
+            "mystery?": false,
+            "ingredients": [
+                ["Fire_Flower", "Iced_Potato"]
+            ]
+        },
+        {
+            "name": "Healthy_Juice",
+            "mystery?": false,
+            "ingredients": [
+                ["Special_Shake", "Stinky_Herb"],
+                ["Special_Shake", "Dried_Shroom"],
+                ["Special_Shake", "Strange_Leaf"]
+            ]
+        },
+        {
+            "name": "Honey_Candy",
+            "mystery?": false,
+            "ingredients": [
+                ["Cake_Mix", "Honey_Syrup"]
+            ]
+        },
+        {
+            "name": "Honey_Shroom",
+            "mystery?": true,
+            "ingredients": [
+                ["Mushroom", "Honey_Syrup"]
+            ]
+        },
+        {
+            "name": "Honey_Super",
+            "mystery?": false,
+            "ingredients": [
+                ["Super_Shroom", "Honey_Syrup"],
+                ["Life_Shroom", "Honey_Syrup"],
+                ["Volt_Shroom", "Honey_Syrup"]
+            ]
+        },
+        {
+            "name": "Honey_Ultra",
+            "mystery?": false,
+            "ingredients": [
+                ["Ultra_Shroom", "Honey_Syrup"]
+            ]
+        },
+        {
+            "name": "Hot_Shroom",
+            "mystery?": false,
+            "ingredients": [
+                ["Life_Shroom"],
+                ["Volt_Shroom"],
+                ["Dried_Shroom", "Super_Shroom"],
+                ["Mushroom", "Super_Shroom"],
+                ["Dried_Shroom", "Volt_Shroom"],
+                ["Mushroom", "Volt_Shroom"],
+                ["Super_Shroom", "Volt_Shroom"],
+                ["Mushroom", "Fire_Flower"]
+            ]
+        },
+        {
+            "name": "Jelly_Pop",
+            "mystery?": false,
+            "ingredients": [
+                ["Cake_Mix", "Jammin'_Jelly"]
+            ]
+        },
+        {
+            "name": "Jelly_Shroom",
+            "mystery?": false,
+            "ingredients": [
+                ["Mushroom", "Jammin'_Jelly"]
+            ]
+        },
+        {
+            "name": "Jelly_Super",
+            "mystery?": false,
+            "ingredients": [
+                ["Super_Shroom", "Jammin'_Jelly"],
+                ["Life_Shroom", "Jammin'_Jelly"],
+                ["Volt_Shroom", "Jammin'_Jelly"]
+            ]
+        },
+        {
+            "name": "Jelly_Ultra",
+            "mystery?": false,
+            "ingredients": [
+                ["Ultra_Shroom", "Jammin'_Jelly"]
+            ]
+        },
+        {
+            "name": "Kooky_Cookie",
+            "mystery?": true,
+            "ingredients": [
+                ["Cake_Mix", "Koopa_Leaf"],
+                ["Cake_Mix", "Stinky_Herb"],
+                ["Cake_Mix", "Maple_Syrup"]
+            ]
+        },
+        {
+            "name": "Koopasta",
+            "mystery?": true,
+            "ingredients": [
+                ["Koopa_Leaf", "Dried_Pasta"]
+            ]
+        },
+        {
+            "name": "Koopa_Tea",
+            "mystery?": true,
+            "ingredients": [
+                ["Koopa_Leaf"]
+            ]
+        },
+        {
+            "name": "Lemon_Candy",
+            "mystery?": false,
+            "ingredients": [
+                ["Lemon", "Cake_Mix"]
+            ]
+        },
+        {
+            "name": "Life_Shroom",
+            "mystery?": true,
+            "ingredients": [
+                ["Mushroom", "Koopa_Leaf", "JAPAN_EXCLUSIVE"],
+                ["Mushroom", "Goomnut", "JAPAN_EXCLUSIVE"],
+                ["Mushroom", "Strange_Leaf", "JAPAN_EXCLUSIVE"],
+                ["Super_Shroom", "Koopa_Leaf"],
+                ["Volt_Shroom", "Koopa_Leaf"],
+                ["Ultra_Shroom", "Koopa_Leaf"],
+                ["Life_Shroom", "Koopa_Leaf"],
+                ["Super_Shroom", "Goomnut"],
+                ["Volt_Shroom", "Goomnut"],
+                ["Ultra_Shroom", "Goomnut"],
+                ["Life_Shroom", "Goomnut"],
+                ["Super_Shroom", "Strange_Leaf"],
+                ["Ultra_Shroom", "Strange_Leaf"],
+                ["Life_Shroom", "Strange_Leaf"],
+
+            ]
+        },
+        {
+            "name": "Lime_Candy",
+            "mystery?": false,
+            "ingredients": [
+                ["Lime", "Cake_Mix"]
+            ]
+        },
+        {
+            "name": "Maple_Shroom",
+            "mystery?": false,
+            "ingredients": [
+                ["Super_Shroom", "Maple_Syrup"],
+                ["Life_Shroom", "Maple_Syrup"],
+                ["Volt_Shroom", "Maple_Syrup"],
+            ]
+        },
+        {
+            "name": "Maple_Super",
+            "mystery?": false,
+            "ingredients": [
+                ["Ultra_Shroom", "Maple_Syrup"]
+            ]
+        },
+        {
+            "name": "Maple_Ultra",
+            "mystery?": false,
+            "ingredients": [
+                ["Lime", "Cake_Mix"]
+            ]
+        },
+        {
+            "name": "Mistake",
+            "mystery?": true,
+            "ingredients": [
+                ["INVALID"]
+            ]
+        },
+        {
+            "name": "Nutty_Cake",
+            "mystery?": false,
+            "ingredients": [
+                ["Goomnut"]
+            ]
+        },
+        {
+            "name": "Potato_Salad",
+            "mystery?": true,
+            "ingredients": [
+                ["Iced_Potato"]
+            ]
+        },
+        {
+            "name": "Shroom_Cake",
+            "mystery?": false,
+            "ingredients": [
+                ["Mushroom", "Cake_Mix"],
+                ["Super_Shroom", "Cake_Mix"]
+            ]
+        },
+        {
+            "name": "Shroom_Steak",
+            "mystery?": false,
+            "ingredients": [
+                ["Ultra_Shroom"],
+                ["Ultra_Shroom", "Mushroom"],
+                ["Ultra_Shroom", "Super_Shroom"],
+                ["Life_Shroom", "Mushroom"],
+                ["Life_Shroom", "Super_Shroom"],
+                ["Life_Shroom", "Ultra_Shroom"],
+                ["Volt_Shroom", "Ultra_Shroom"],
+                ["Dried_Shroom", "Ultra_Shroom"],
+                ["Dried_Shroom", "Life_Shroom"]
+            ]
+        },
+        {
+            "name": "Sleepy_Sheep",
+            "mystery?": true,
+            "ingredients": [
+                ["Red_Berry", "Strange_Leaf"],
+                ["Yellow_Berry", "Strange_Leaf"],
+                ["Blue_Berry", "Strange_Leaf"],
+            ]
+        },
+        {
+            "name": "Spaghetti",
+            "mystery?": true,
+            "ingredients": [
+                ["Dried_Pasta"]
+            ]
+        },
+        { //TODO:
+            "name": "Special_Shake",
+            "mystery?": true,
+            "ingredients": [
+                ["Melon"]
+            ]
+        },
+        {
+            "name": "Spicy_Soup",
+            "mystery?": true,
+            "ingredients": [
+                ["Fire_Flower"]
+            ]
+        },
+        {
+            "name": "Strange_Cake",
+            "mystery?": false,
+            "ingredients": [
+                ["Strange_Leaf", "Cake_Mix"]
+            ]
+        },
+        { //TODO:
+            "name": "Super_Soda",
+            "mystery?": true,
+            "ingredients": [
+                ["Cake_Mix", "Ultra_Shroom"]
+            ]
+        },
+        {
+            "name": "Sweet_Shroom",
+            "mystery?": false,
+            "ingredients": [
+                ["Cake_Mix", "Ultra_Shroom"],
+                ["Cake_Mix", "Life_Shroom"]
+            ]
+        },
+        { //TODO:
+            "name": "Tasty_Tonic",
+            "mystery?": true,
+            "ingredients": [
+                ["TBA"]
+            ]
+        },
+        {
+            "name": "Thunder_Rage",
+            "mystery?": true,
+            "ingredients": [
+                ["Dried_Fruit", "Volt_Shroom"]
+            ]
+        },
+        {
+            "name": "Volt_Shroom",
+            "mystery?": true,
+            "ingredients": [
+                ["Mushroom", "Koopa_Leaf", "INTERNATIONAL_EXCLUSIVE"]
+                ["Mushroom", "Goomnut", "INTERNATIONAL_EXCLUSIVE"]
+                ["Mushroom", "Strange_Leaf", "INTERNATIONAL_EXCLUSIVE"]
+                ["Mushroom", "Dried_Fruit"]
+                ["Super_Shroom", "Dried_Fruit"]
+                ["Ultra_Shroom", "Dried_Fruit"]
+                ["Life_Shroom", "Dried_Fruit"]
+            ]
+        },        
+        {
+            "name": "Yoshi_Cookie",
+            "mystery?": false,
+            "ingredients": [
+                ["Melon", "Cake_Mix"]
+            ]
+        },
+        { //TODO:
+            "name": "Yummy_Meal",
+            "mystery?": false,
+            "ingredients": [
+                ["TBA"]
+            ]
+        },
+    ]
+}
