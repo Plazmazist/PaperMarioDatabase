@@ -1,4 +1,5 @@
 TODO: remove underscores from ingredients and recipes names.
+TODO: check if you can remove commas.
 {
     "ingredients": [ // TODO: sort in alphabethical order.
         { "name": "COOKBOOK", "chapter": 4 },
@@ -422,11 +423,31 @@ TODO: remove underscores from ingredients and recipes names.
                 ["Dried_Pasta"]
             ]
         },
-        { //TODO:
+        {
             "name": "Special_Shake",
             "mystery?": true,
             "ingredients": [
-                ["Melon"]
+                ["Melon"],
+                ["Melon", "Lime"],
+                ["Melon", "Lemon"],
+                ["Melon", "Honey_Syrup"],
+                ["Melon", "Maple_Syrup"],
+                ["Melon", "Jammin'_Jelly"],
+                ["Melon", "Apple"],
+                ["Melon", "Red_Berry"],
+                ["Melon", "Yellow_Berry"],
+                ["Melon", "Blue_Berry"],
+                ["Melon", "Koopa_Leaf"],
+                ["Melon", "Strange_Leaf"],
+                ["Jammin'_Jelly", "Coconut"],
+                ["Jammin'_Jelly", "Lime"],
+                ["Jammin'_Jelly", "Lemon"],
+                ["Jammin'_Jelly", "Honey_Syrup"],
+                ["Jammin'_Jelly", "Maple_Syrup"],
+                ["Jammin'_Jelly", "Apple"],
+                ["Jammin'_Jelly", "Red_Berry"],
+                ["Jammin'_Jelly", "Yellow_Berry"],
+                ["Jammin'_Jelly", "Blue_Berry"]
             ]
         },
         {
@@ -443,11 +464,58 @@ TODO: remove underscores from ingredients and recipes names.
                 ["Strange_Leaf", "Cake_Mix"]
             ]
         },
-        { //TODO:
+        {
             "name": "Super_Soda",
             "mystery?": true,
             "ingredients": [
-                ["Cake_Mix", "Ultra_Shroom"]
+                ["Honey_Syrup"],
+                ["Maple_Syrup"],
+                ["Jammin'_Jelly"],
+                ["Apple"],
+                ["Blue_Berry", "COOKBOOK"],
+                ["Red_Berry", "COOKBOOK"],
+                ["Yellow_Berry", "COOKBOOK"],
+
+                ["Honey_Syrup", "Maple_Syrup"],
+                ["Honey_Syrup", "Koopa_Leaf"],
+                
+                ["Lime", "Maple_Syrup"],
+                ["Apple", "Maple_Syrup"],
+                ["Lime", "Koopa_Leaf"],
+                ["Lime", "Lemon"],
+                ["Lime", "Blue_Berry"],
+                ["Lime", "Red_Berry"],
+                ["Lime", "Yellow_Berry"],
+                ["Lime", "Apple"],
+
+                ["Lemon", "Blue_Berry"],
+                ["Lemon", "Red_Berry"],
+                ["Lemon", "Yellow_Berry"],
+                ["Lemon", "Maple_Syrup"],
+                ["Lemon", "Koopa_Leaf"],
+                ["Lemon", "Apple"],
+
+                ["Apple", "Blue_Berry"],
+                ["Apple", "Red_Berry"],
+                ["Apple", "Yellow_Berry"],
+                
+                ["Jammin'_Jelly", "Koopa_Leaf"],
+                ["Yellow_Berry", "Blue_Berry"],
+                ["Yellow_Berry", "Red_Berry"],
+                ["Blue_Berry", "Red_Berry"],
+
+                ["Coconut", "Blue_Berry"],
+                ["Coconut", "Red_Berry"],
+                ["Coconut", "Yellow_Berry"],
+                ["Coconut", "Apple"],
+                ["Coconut", "Melon"],
+                ["Coconut", "Koopa_Leaf"],
+
+                ["Blue_Berry", "Maple_Syrup"],
+                ["Red_Berry", "Maple_Syrup"],
+                ["Yellow_Berry", "Maple_Syrup"],
+                ["Koopa_Leaf", "Maple_Syrup"],
+                ["Coconut", "Maple_Syrup"]
             ]
         },
         {
@@ -458,11 +526,21 @@ TODO: remove underscores from ingredients and recipes names.
                 ["Cake_Mix", "Life_Shroom"]
             ]
         },
-        { //TODO:
+        {
             "name": "Tasty_Tonic",
             "mystery?": true,
             "ingredients": [
-                ["TBA"]
+                ["Bubble_Berry", "COOKBOOK"],
+                ["Coconut"],
+                ["Lemon"],
+                ["Lime"],
+                ["Red_Berry", "Honey_Syrup"],
+                ["Yellow_Berry", "Honey_Syrup"],
+                ["Blue_Berry", "Honey_Syrup"],
+                ["Apple", "Honey_Syrup"],
+                ["Lemon", "Honey_Syrup"],
+                ["Lime", "Honey_Syrup"],
+                ["Coconut", "Honey_Syrup"]
             ]
         },
         {
@@ -476,12 +554,12 @@ TODO: remove underscores from ingredients and recipes names.
             "name": "Volt_Shroom",
             "mystery?": true,
             "ingredients": [
-                ["Mushroom", "Koopa_Leaf", "INTERNATIONAL_EXCLUSIVE"]
-                ["Mushroom", "Goomnut", "INTERNATIONAL_EXCLUSIVE"]
-                ["Mushroom", "Strange_Leaf", "INTERNATIONAL_EXCLUSIVE"]
-                ["Mushroom", "Dried_Fruit"]
-                ["Super_Shroom", "Dried_Fruit"]
-                ["Ultra_Shroom", "Dried_Fruit"]
+                ["Mushroom", "Koopa_Leaf", "INTERNATIONAL_EXCLUSIVE"],
+                ["Mushroom", "Goomnut", "INTERNATIONAL_EXCLUSIVE"],
+                ["Mushroom", "Strange_Leaf", "INTERNATIONAL_EXCLUSIVE"],
+                ["Mushroom", "Dried_Fruit"],
+                ["Super_Shroom", "Dried_Fruit"],
+                ["Ultra_Shroom", "Dried_Fruit"],
                 ["Life_Shroom", "Dried_Fruit"]
             ]
         },        
@@ -492,11 +570,21 @@ TODO: remove underscores from ingredients and recipes names.
                 ["Melon", "Cake_Mix"]
             ]
         },
-        { //TODO:
+        {
             "name": "Yummy_Meal",
             "mystery?": false,
             "ingredients": [
-                ["TBA"]
+                ["Whacka's_Bump", "COOKBOOK"],
+                ["Dried_Fruit", "Dried_Pasta"],
+                ["Dried_Fruit", "Iced_Potato"],
+                ["Fire_Flower", "Ultra_Shroom"],
+                ["Dried_Pasta", "Ultra_Shroom"],
+                ["Egg", "Ultra_Shroom"],
+                ["Iced_Potato", "Ultra_Shroom"],
+                ["Strange_Leaf", "Iced_Potato"],
+                ["Hot_Shroom", "Potato_Salad"],
+                ["Spaghetti", "Potato_Salad"]
+
             ]
         },
     ]
