@@ -1,48 +1,44 @@
-TODO: remove underscores from ingredients and recipes names.
-TODO: check if you can remove commas.
 {
-    "ingredients": [ // TODO: sort in alphabethical order.
-        { "name": "COOKBOOK", "chapter": 4 },
-        { "name": "JAPAN_EXCLUSIVE"},
+    "ingredients": [
         { "name": "INTERNATIONAL_EXCLUSIVE"},
         { "name": "INVALID"},
-
+        { "name": "JAPAN_EXCLUSIVE"},
         { "name": "Apple", "chapter": 3 },
-        { "name": "Cake_Mix", "chapter": 4 },
-        { "name": "Egg", "chapter": 2 },
-        { "name": "Goomnut", "chapter": 0 },
         { "name": "Blue_Berry", "chapter": 6 },
-        { "name": "Red_Berry", "chapter": 6 },
-        { "name": "Yellow_Berry", "chapter": 6 },
-        { "name": "Koopa_Leaf", "chapter": 1 },
-        { "name": "Strange_Leaf", "chapter": 3 },
-        { "name": "Dried_Pasta", "chapter": 2 },
-        { "name": "Iced_Potato", "chapter": 7 },
-        { "name": "Mushroom", "chapter": 0 },
-        { "name": "Volt_Shroom", "chapter": 1 },
-        { "name": "Super_Shroom", "chapter": 0 },
-        { "name": "Life_Shroom", "chapter": 2 },
+        { "name": "Bubble_Berry", "chapter": 6 },
+        { "name": "Cake_Mix", "chapter": 4 },
         { "name": "Coconut", "chapter": 5 },
+        { "name": "Dried_Fruit", "chapter": 2 },
+        { "name": "Dried_Pasta", "chapter": 2 },
+        { "name": "Dried_Shroom", "chapter": 1 },
+        { "name": "Egg", "chapter": 2 },
         { "name": "Fire_Flower", "chapter": 0 },
         { "name": "Fried_Shroom", "chapter": 1 },
-        { "name": "Potato_Salad", "chapter": 7 },
-        { "name": "Stinky_Herb", "chapter": 6 },
-        { "name": "Whacka's_Bump", "chapter": 2 },
-        { "name": "Shroom_Steak", "chapter": 3 },
-        { "name": "Dried_Fruit", "chapter": 2 },
-        { "name": "Dried_Shroom", "chapter": 1 },
-        { "name": "Special_Shake", "chapter": 4 },
+        { "name": "Goomnut", "chapter": 0 },
+        { "name": "Hot_Shroom", "chapter": 1 },
+        { "name": "Iced_Potato", "chapter": 7 },
         { "name": "Jammin'_Jelly", "chapter": 1 },
+        { "name": "Koopa_Leaf", "chapter": 1 },
         { "name": "Lemon", "chapter": 2 },
+        { "name": "Life_Shroom", "chapter": 2 },
         { "name": "Lime", "chapter": 2 },
         { "name": "Melon", "chapter": 5 },
-        { "name": "Bubble_Berry", "chapter": 6 },
-        { "name": "Hot_Shroom", "chapter": 1 },
+        { "name": "Mushroom", "chapter": 0 },
+        { "name": "Mystery?", "chapter": 3 },
+        { "name": "Potato_Salad", "chapter": 7 },
+        { "name": "Red_Berry", "chapter": 6 },
+        { "name": "Shroom_Steak", "chapter": 3 },
         { "name": "Spaghetti", "chapter": 2 },
-        { "name": "Mystery?", "chapter": 3 }
+        { "name": "Special_Shake", "chapter": 4 },
+        { "name": "Stinky_Herb", "chapter": 6 },
+        { "name": "Strange_Leaf", "chapter": 3 },
+        { "name": "Super_Shroom", "chapter": 0 },
+        { "name": "Volt_Shroom", "chapter": 1 },
+        { "name": "Whacka's_Bump", "chapter": 2 },
+        { "name": "Yellow_Berry", "chapter": 6 }
     ],
 
-    "recipes": [ // complete recipes list.
+    "recipes": [
         {
             "name": "Apple_Pie",
             "mystery?": true,
@@ -54,58 +50,58 @@ TODO: check if you can remove commas.
             "name": "Big_Cookie",
             "mystery?": true,
             "ingredients": [
-                ["Egg", "Cake_Mix"],
-                ["Goomnut", "Cake_Mix"],
-                ["Red Berry", "Cake_Mix"],
-                ["Yellow Berry", "Cake_Mix"],
-                ["Blue Berry", "Cake_Mix"]
+                ["Blue_Berry", "Cake_Mix"],
+                ["Cake_Mix", "Egg"],
+                ["Cake_Mix", "Goomnut"],
+                ["Cake_Mix", "Red_Berry"],
+                ["Cake_Mix", "Yellow_Berry"]
             ]
         },
         {
             "name": "Bland_Meal",
             "mystery?": true,
             "ingredients": [
-                ["Koopa_Leaf", "Goomnut"],
-                ["Koopa_Leaf", "Red_Berry"],
-                ["Koopa_Leaf", "Yellow_Berry"],
-                ["Koopa_Leaf", "Blue_Berry"],
-                ["Strange_Leaf", "Goomnut"],
-                ["Strange_Leaf", "Dried_Pasta"],
-                ["Iced_Potato", "Mushroom"],
-                ["Iced_Potato", "Volt_Shroom"],
-                ["Iced_Potato", "Super_Shroom"],
-                ["Iced_Potato", "Life_Shroom"],
-                ["Iced_Potato", "Cake_Mix"],
-                ["Iced_Potato", "Egg"],
-                ["Iced_Potato", "Coconut"],
-                ["Iced_Potato", "Dried_Pasta"],
-                ["Fire_Flower", "Goomnut"],
-                ["Fire_Flower", "Volt_Shroom"],
-                ["Fire_Flower", "Super_Shroom"],
-                ["Fire_Flower", "Life_Shroom"],
-                ["Fried_Shroom", "Potato_Salad"],
-                ["Egg", "Mushroom"],
-                ["Egg", "Volt_Shroom"],
-                ["Egg", "Super_Shroom"],
-                ["Egg", "Life_Shroom"],
-                ["Egg", "Dried_Pasta"],
+                ["Blue_Berry", "Dried_Pasta"],
+                ["Blue_Berry", "Koopa_Leaf"],
+                ["Cake_Mix", "Iced_Potato"],
+                ["Coconut", "Dried_Pasta"],
+                ["Coconut", "Iced_Potato"],
+                ["Dried_Pasta", "Egg"],
                 ["Dried_Pasta", "Goomnut"],
-                ["Dried_Pasta", "Coconut"],
-                ["Dried_Pasta", "Mushroom"],
-                ["Dried_Pasta", "Volt_Shroom"],
-                ["Dried_Pasta", "Super_Shroom"],
+                ["Dried_Pasta", "Iced_Potato"],
                 ["Dried_Pasta", "Life_Shroom"],
+                ["Dried_Pasta", "Mushroom"],
                 ["Dried_Pasta", "Red_Berry"],
+                ["Dried_Pasta", "Strange_Leaf"],
+                ["Dried_Pasta", "Super_Shroom"],
+                ["Dried_Pasta", "Volt_Shroom"],
                 ["Dried_Pasta", "Yellow_Berry"],
-                ["Dried_Pasta", "Blue_Berry"]
+                ["Egg", "Iced_Potato"],
+                ["Egg", "Life_Shroom"],
+                ["Egg", "Mushroom"],
+                ["Egg", "Super_Shroom"],
+                ["Egg", "Volt_Shroom"],
+                ["Fire_Flower", "Goomnut"],
+                ["Fire_Flower", "Life_Shroom"],
+                ["Fire_Flower", "Super_Shroom"],
+                ["Fire_Flower", "Volt_Shroom"],
+                ["Fried_Shroom", "Potato_Salad"],
+                ["Goomnut", "Koopa_Leaf"],
+                ["Goomnut", "Strange_Leaf"],
+                ["Iced_Potato", "Life_Shroom"],
+                ["Iced_Potato", "Mushroom"],
+                ["Iced_Potato", "Super_Shroom"],
+                ["Iced_Potato", "Volt_Shroom"],
+                ["Koopa_Leaf", "Red_Berry"],
+                ["Koopa_Leaf", "Yellow_Berry"]
             ]
         },
         {
             "name": "Boiled_Egg",
             "mystery?": true,
             "ingredients": [
-                ["Egg", "Strange_Leaf"],
-                ["Egg", "Stinky_Herb"]
+                ["Egg", "Stinky_Herb"],
+                ["Egg", "Strange_Leaf"]
             ]
         },
         {
@@ -116,48 +112,41 @@ TODO: check if you can remove commas.
             ]
         },
         {
-            "name": "Coco Pop",
+            "name": "Coco_Pop",
             "mystery?": false,
             "ingredients": [
-                ["Coconut", "Cake_Mix"]
+                ["Cake_Mix", "Coconut"]
             ]
         },
         {
             "name": "Deluxe_Feast",
             "mystery?": false,
             "ingredients": [
-                ["Whacka's_Bump", "Strange_Leaf"],
-                ["Potato_Salad", "Shroom_Steak"]
+                ["Potato_Salad", "Shroom_Steak"],
+                ["Strange_Leaf", "Whacka's_Bump"]
             ]
         },
         {
             "name": "Dizzy_Dial",
             "mystery?": true,
             "ingredients": [
-                ["Strange_Leaf", "COOKBOOK"],
-                ["Strange_Leaf", "Volt_Shroom"],
-                ["Strange_Leaf", "Stinky_Herb"]
+                ["Strange_Leaf", "MISTAKE"],
+                ["Stinky_Herb", "Strange_Leaf"],
+                ["Strange_Leaf", "Volt_Shroom"]
             ]
         },
         {
             "name": "Egg_Missile",
             "mystery?": true,
             "ingredients": [
-                ["Fire_Flower", "Egg"]
+                ["Egg", "Fire_Flower"]
             ]
         },
         {
             "name": "Electro_Pop",
             "mystery?": false,
             "ingredients": [
-                ["Volt_Shroom", "Cake_Mix"]
-            ]
-        },
-        {
-            "name": "Electro_Pop",
-            "mystery?": false,
-            "ingredients": [
-                ["Volt_Shroom", "Cake_Mix"]
+                ["Cake_Mix", "Volt_Shroom"]
             ]
         },
         {
@@ -185,11 +174,11 @@ TODO: check if you can remove commas.
             "name": "Fried_Shroom",
             "mystery?": true,
             "ingredients": [
-                ["Dried_Shroom", "COOKBOOK"],
+                ["Dried_Shroom", "MISTAKE"],
                 ["Mushroom"],
                 ["Super_Shroom"],
-                ["Dried_Shroom", "Mushroom"],
-                ["Dried_Shroom", "Fire_Flower"]
+                ["Dried_Shroom", "Fire_Flower"],
+                ["Dried_Shroom", "Mushroom"]
             ]
         },
         {
@@ -203,8 +192,8 @@ TODO: check if you can remove commas.
             "name": "Healthy_Juice",
             "mystery?": false,
             "ingredients": [
+                ["Dried_Shroom", "Special_Shake"],
                 ["Special_Shake", "Stinky_Herb"],
-                ["Special_Shake", "Dried_Shroom"],
                 ["Special_Shake", "Strange_Leaf"]
             ]
         },
@@ -219,23 +208,23 @@ TODO: check if you can remove commas.
             "name": "Honey_Shroom",
             "mystery?": true,
             "ingredients": [
-                ["Mushroom", "Honey_Syrup"]
+                ["Honey_Syrup", "Mushroom"]
             ]
         },
         {
             "name": "Honey_Super",
             "mystery?": false,
             "ingredients": [
-                ["Super_Shroom", "Honey_Syrup"],
-                ["Life_Shroom", "Honey_Syrup"],
-                ["Volt_Shroom", "Honey_Syrup"]
+                ["Honey_Syrup", "Life_Shroom"],
+                ["Honey_Syrup", "Super_Shroom"],
+                ["Honey_Syrup", "Volt_Shroom"]
             ]
         },
         {
             "name": "Honey_Ultra",
             "mystery?": false,
             "ingredients": [
-                ["Ultra_Shroom", "Honey_Syrup"]
+                ["Honey_Syrup", "Ultra_Shroom"]
             ]
         },
         {
@@ -245,11 +234,11 @@ TODO: check if you can remove commas.
                 ["Life_Shroom"],
                 ["Volt_Shroom"],
                 ["Dried_Shroom", "Super_Shroom"],
-                ["Mushroom", "Super_Shroom"],
                 ["Dried_Shroom", "Volt_Shroom"],
+                ["Fire_Flower", "Mushroom"],
+                ["Mushroom", "Super_Shroom"],
                 ["Mushroom", "Volt_Shroom"],
-                ["Super_Shroom", "Volt_Shroom"],
-                ["Mushroom", "Fire_Flower"]
+                ["Super_Shroom", "Volt_Shroom"]
             ]
         },
         {
@@ -263,23 +252,23 @@ TODO: check if you can remove commas.
             "name": "Jelly_Shroom",
             "mystery?": false,
             "ingredients": [
-                ["Mushroom", "Jammin'_Jelly"]
+                ["Jammin'_Jelly", "Mushroom"]
             ]
         },
         {
             "name": "Jelly_Super",
             "mystery?": false,
             "ingredients": [
-                ["Super_Shroom", "Jammin'_Jelly"],
-                ["Life_Shroom", "Jammin'_Jelly"],
-                ["Volt_Shroom", "Jammin'_Jelly"]
+                ["Jammin'_Jelly", "Life_Shroom"],
+                ["Jammin'_Jelly", "Super_Shroom"],
+                ["Jammin'_Jelly", "Volt_Shroom"]
             ]
         },
         {
             "name": "Jelly_Ultra",
             "mystery?": false,
             "ingredients": [
-                ["Ultra_Shroom", "Jammin'_Jelly"]
+                ["Jammin'_Jelly", "Ultra_Shroom"]
             ]
         },
         {
@@ -287,15 +276,15 @@ TODO: check if you can remove commas.
             "mystery?": true,
             "ingredients": [
                 ["Cake_Mix", "Koopa_Leaf"],
-                ["Cake_Mix", "Stinky_Herb"],
-                ["Cake_Mix", "Maple_Syrup"]
+                ["Cake_Mix", "Maple_Syrup"],
+                ["Cake_Mix", "Stinky_Herb"]
             ]
         },
         {
             "name": "Koopasta",
             "mystery?": true,
             "ingredients": [
-                ["Koopa_Leaf", "Dried_Pasta"]
+                ["Dried_Pasta", "Koopa_Leaf"]
             ]
         },
         {
@@ -309,58 +298,57 @@ TODO: check if you can remove commas.
             "name": "Lemon_Candy",
             "mystery?": false,
             "ingredients": [
-                ["Lemon", "Cake_Mix"]
+                ["Cake_Mix", "Lemon"]
             ]
         },
         {
             "name": "Life_Shroom",
             "mystery?": true,
             "ingredients": [
-                ["Mushroom", "Koopa_Leaf", "JAPAN_EXCLUSIVE"],
-                ["Mushroom", "Goomnut", "JAPAN_EXCLUSIVE"],
-                ["Mushroom", "Strange_Leaf", "JAPAN_EXCLUSIVE"],
-                ["Super_Shroom", "Koopa_Leaf"],
-                ["Volt_Shroom", "Koopa_Leaf"],
-                ["Ultra_Shroom", "Koopa_Leaf"],
-                ["Life_Shroom", "Koopa_Leaf"],
-                ["Super_Shroom", "Goomnut"],
-                ["Volt_Shroom", "Goomnut"],
-                ["Ultra_Shroom", "Goomnut"],
-                ["Life_Shroom", "Goomnut"],
-                ["Super_Shroom", "Strange_Leaf"],
-                ["Ultra_Shroom", "Strange_Leaf"],
+                ["Goomnut", "Life_Shroom"],
+                ["Goomnut", "Mushroom", "JAPAN_EXCLUSIVE"],
+                ["Goomnut", "Super_Shroom"],
+                ["Goomnut", "Ultra_Shroom"],
+                ["Goomnut", "Volt_Shroom"],
+                ["Koopa_Leaf", "Life_Shroom"],
+                ["Koopa_Leaf", "Mushroom", "JAPAN_EXCLUSIVE"],
+                ["Koopa_Leaf", "Super_Shroom"],
+                ["Koopa_Leaf", "Ultra_Shroom"],
+                ["Koopa_Leaf", "Volt_Shroom"],
                 ["Life_Shroom", "Strange_Leaf"],
-
+                ["Mushroom", "Strange_Leaf", "JAPAN_EXCLUSIVE"],
+                ["Strange_Leaf", "Super_Shroom"],
+                ["Strange_Leaf", "Ultra_Shroom"]
             ]
         },
         {
             "name": "Lime_Candy",
             "mystery?": false,
             "ingredients": [
-                ["Lime", "Cake_Mix"]
+                ["Cake_Mix", "Lime"]
             ]
         },
         {
             "name": "Maple_Shroom",
             "mystery?": false,
             "ingredients": [
-                ["Super_Shroom", "Maple_Syrup"],
-                ["Life_Shroom", "Maple_Syrup"],
-                ["Volt_Shroom", "Maple_Syrup"],
+                ["Maple_Syrup", "Mushroom"]
             ]
         },
         {
             "name": "Maple_Super",
             "mystery?": false,
             "ingredients": [
-                ["Ultra_Shroom", "Maple_Syrup"]
+                ["Life_Shroom", "Maple_Syrup"],
+                ["Maple_Syrup", "Super_Shroom"],
+                ["Maple_Syrup", "Volt_Shroom"]
             ]
         },
         {
             "name": "Maple_Ultra",
             "mystery?": false,
             "ingredients": [
-                ["Lime", "Cake_Mix"]
+                ["Maple_Syrup", "Ultra_Shroom"]
             ]
         },
         {
@@ -388,8 +376,8 @@ TODO: check if you can remove commas.
             "name": "Shroom_Cake",
             "mystery?": false,
             "ingredients": [
-                ["Mushroom", "Cake_Mix"],
-                ["Super_Shroom", "Cake_Mix"]
+                ["Cake_Mix", "Mushroom"],
+                ["Cake_Mix", "Super_Shroom"]
             ]
         },
         {
@@ -397,23 +385,23 @@ TODO: check if you can remove commas.
             "mystery?": false,
             "ingredients": [
                 ["Ultra_Shroom"],
-                ["Ultra_Shroom", "Mushroom"],
-                ["Ultra_Shroom", "Super_Shroom"],
+                ["Dried_Shroom", "Life_Shroom"],
+                ["Dried_Shroom", "Ultra_Shroom"],
                 ["Life_Shroom", "Mushroom"],
                 ["Life_Shroom", "Super_Shroom"],
                 ["Life_Shroom", "Ultra_Shroom"],
-                ["Volt_Shroom", "Ultra_Shroom"],
-                ["Dried_Shroom", "Ultra_Shroom"],
-                ["Dried_Shroom", "Life_Shroom"]
+                ["Mushroom", "Ultra_Shroom"],
+                ["Super_Shroom", "Ultra_Shroom"],
+                ["Ultra_Shroom", "Volt_Shroom"]
             ]
         },
         {
             "name": "Sleepy_Sheep",
             "mystery?": true,
             "ingredients": [
-                ["Red_Berry", "Strange_Leaf"],
-                ["Yellow_Berry", "Strange_Leaf"],
                 ["Blue_Berry", "Strange_Leaf"],
+                ["Red_Berry", "Strange_Leaf"],
+                ["Strange_Leaf", "Yellow_Berry"]
             ]
         },
         {
@@ -428,26 +416,26 @@ TODO: check if you can remove commas.
             "mystery?": true,
             "ingredients": [
                 ["Melon"],
-                ["Melon", "Lime"],
-                ["Melon", "Lemon"],
-                ["Melon", "Honey_Syrup"],
-                ["Melon", "Maple_Syrup"],
-                ["Melon", "Jammin'_Jelly"],
-                ["Melon", "Apple"],
-                ["Melon", "Red_Berry"],
-                ["Melon", "Yellow_Berry"],
-                ["Melon", "Blue_Berry"],
-                ["Melon", "Koopa_Leaf"],
-                ["Melon", "Strange_Leaf"],
-                ["Jammin'_Jelly", "Coconut"],
-                ["Jammin'_Jelly", "Lime"],
+                ["Apple", "Jammin'_Jelly"],
+                ["Apple", "Melon"],
+                ["Blue_Berry", "Jammin'_Jelly"],
+                ["Blue_Berry", "Melon"],
+                ["Coconut", "Jammin'_Jelly"],
+                ["Honey_Syrup", "Jammin'_Jelly"],
+                ["Honey_Syrup", "Melon"],
                 ["Jammin'_Jelly", "Lemon"],
-                ["Jammin'_Jelly", "Honey_Syrup"],
+                ["Jammin'_Jelly", "Lime"],
                 ["Jammin'_Jelly", "Maple_Syrup"],
-                ["Jammin'_Jelly", "Apple"],
+                ["Jammin'_Jelly", "Melon"],
                 ["Jammin'_Jelly", "Red_Berry"],
                 ["Jammin'_Jelly", "Yellow_Berry"],
-                ["Jammin'_Jelly", "Blue_Berry"]
+                ["Koopa_Leaf", "Melon"],
+                ["Lemon", "Melon"],
+                ["Lime", "Melon"],
+                ["Maple_Syrup", "Melon"],
+                ["Melon", "Red_Berry"],
+                ["Melon", "Strange_Leaf"],
+                ["Melon", "Yellow_Berry"]
             ]
         },
         {
@@ -461,86 +449,79 @@ TODO: check if you can remove commas.
             "name": "Strange_Cake",
             "mystery?": false,
             "ingredients": [
-                ["Strange_Leaf", "Cake_Mix"]
+                ["Cake_Mix", "Strange_Leaf"]
             ]
         },
         {
             "name": "Super_Soda",
             "mystery?": true,
             "ingredients": [
-                ["Honey_Syrup"],
-                ["Maple_Syrup"],
-                ["Jammin'_Jelly"],
                 ["Apple"],
-                ["Blue_Berry", "COOKBOOK"],
-                ["Red_Berry", "COOKBOOK"],
-                ["Yellow_Berry", "COOKBOOK"],
-
-                ["Honey_Syrup", "Maple_Syrup"],
-                ["Honey_Syrup", "Koopa_Leaf"],
-                
-                ["Lime", "Maple_Syrup"],
-                ["Apple", "Maple_Syrup"],
-                ["Lime", "Koopa_Leaf"],
-                ["Lime", "Lemon"],
-                ["Lime", "Blue_Berry"],
-                ["Lime", "Red_Berry"],
-                ["Lime", "Yellow_Berry"],
-                ["Lime", "Apple"],
-
-                ["Lemon", "Blue_Berry"],
-                ["Lemon", "Red_Berry"],
-                ["Lemon", "Yellow_Berry"],
-                ["Lemon", "Maple_Syrup"],
-                ["Lemon", "Koopa_Leaf"],
-                ["Lemon", "Apple"],
-
+                ["Blue_Berry", "MISTAKE"],
+                ["Honey_Syrup"],
+                ["Jammin'_Jelly"],
+                ["Maple_Syrup"],
+                ["Red_Berry", "MISTAKE"],
+                ["Yellow_Berry", "MISTAKE"],
                 ["Apple", "Blue_Berry"],
+                ["Apple", "Coconut"],
+                ["Apple", "Lemon"],
+                ["Apple", "Lime"],
+                ["Apple", "Maple_Syrup"],
                 ["Apple", "Red_Berry"],
                 ["Apple", "Yellow_Berry"],
-                
-                ["Jammin'_Jelly", "Koopa_Leaf"],
-                ["Yellow_Berry", "Blue_Berry"],
-                ["Yellow_Berry", "Red_Berry"],
+                ["Blue_Berry", "Coconut"],
+                ["Blue_Berry", "Lemon"],
+                ["Blue_Berry", "Lime"],
+                ["Blue_Berry", "Maple_Syrup"],
                 ["Blue_Berry", "Red_Berry"],
-
-                ["Coconut", "Blue_Berry"],
+                ["Blue_Berry", "Yellow_Berry"],
+                ["Coconut", "Koopa_Leaf"],
+                ["Coconut", "Maple_Syrup"],
+                ["Coconut", "Melon"],
                 ["Coconut", "Red_Berry"],
                 ["Coconut", "Yellow_Berry"],
-                ["Coconut", "Apple"],
-                ["Coconut", "Melon"],
-                ["Coconut", "Koopa_Leaf"],
-
-                ["Blue_Berry", "Maple_Syrup"],
-                ["Red_Berry", "Maple_Syrup"],
-                ["Yellow_Berry", "Maple_Syrup"],
+                ["Honey_Syrup", "Koopa_Leaf"],
+                ["Honey_Syrup", "Maple_Syrup"],
+                ["Jammin'_Jelly", "Koopa_Leaf"],
+                ["Koopa_Leaf", "Lemon"],
+                ["Koopa_Leaf", "Lime"],
                 ["Koopa_Leaf", "Maple_Syrup"],
-                ["Coconut", "Maple_Syrup"]
+                ["Lemon", "Lime"],
+                ["Lemon", "Maple_Syrup"],
+                ["Lemon", "Red_Berry"],
+                ["Lemon", "Yellow_Berry"],
+                ["Lime", "Maple_Syrup"],
+                ["Lime", "Red_Berry"],
+                ["Lime", "Yellow_Berry"],
+                ["Maple_Syrup", "Red_Berry"],
+                ["Maple_Syrup", "Yellow_Berry"],
+                ["Red_Berry", "Yellow_Berry"]
             ]
         },
         {
             "name": "Sweet_Shroom",
             "mystery?": false,
             "ingredients": [
-                ["Cake_Mix", "Ultra_Shroom"],
-                ["Cake_Mix", "Life_Shroom"]
+                ["Cake_Mix", "Life_Shroom"],
+                ["Cake_Mix", "Ultra_Shroom"]
             ]
         },
         {
             "name": "Tasty_Tonic",
             "mystery?": true,
             "ingredients": [
-                ["Bubble_Berry", "COOKBOOK"],
+                ["Bubble_Berry", "MISTAKE"],
                 ["Coconut"],
                 ["Lemon"],
                 ["Lime"],
-                ["Red_Berry", "Honey_Syrup"],
-                ["Yellow_Berry", "Honey_Syrup"],
-                ["Blue_Berry", "Honey_Syrup"],
                 ["Apple", "Honey_Syrup"],
-                ["Lemon", "Honey_Syrup"],
-                ["Lime", "Honey_Syrup"],
-                ["Coconut", "Honey_Syrup"]
+                ["Blue_Berry", "Honey_Syrup"],
+                ["Coconut", "Honey_Syrup"],
+                ["Honey_Syrup", "Lemon"],
+                ["Honey_Syrup", "Lime"],
+                ["Honey_Syrup", "Red_Berry"],
+                ["Honey_Syrup", "Yellow_Berry"]
             ]
         },
         {
@@ -554,38 +535,37 @@ TODO: check if you can remove commas.
             "name": "Volt_Shroom",
             "mystery?": true,
             "ingredients": [
-                ["Mushroom", "Koopa_Leaf", "INTERNATIONAL_EXCLUSIVE"],
-                ["Mushroom", "Goomnut", "INTERNATIONAL_EXCLUSIVE"],
-                ["Mushroom", "Strange_Leaf", "INTERNATIONAL_EXCLUSIVE"],
-                ["Mushroom", "Dried_Fruit"],
-                ["Super_Shroom", "Dried_Fruit"],
-                ["Ultra_Shroom", "Dried_Fruit"],
-                ["Life_Shroom", "Dried_Fruit"]
+                ["Dried_Fruit", "Life_Shroom"],
+                ["Dried_Fruit", "Mushroom"],
+                ["Dried_Fruit", "Super_Shroom"],
+                ["Dried_Fruit", "Ultra_Shroom"],
+                ["Goomnut", "Mushroom", "INTERNATIONAL_EXCLUSIVE"],
+                ["Koopa_Leaf", "Mushroom", "INTERNATIONAL_EXCLUSIVE"],
+                ["Mushroom", "Strange_Leaf", "INTERNATIONAL_EXCLUSIVE"]
             ]
         },        
         {
             "name": "Yoshi_Cookie",
             "mystery?": false,
             "ingredients": [
-                ["Melon", "Cake_Mix"]
+                ["Cake_Mix", "Melon"]
             ]
         },
         {
             "name": "Yummy_Meal",
             "mystery?": false,
             "ingredients": [
-                ["Whacka's_Bump", "COOKBOOK"],
+                ["Whacka's_Bump", "MISTAKE"],
                 ["Dried_Fruit", "Dried_Pasta"],
                 ["Dried_Fruit", "Iced_Potato"],
-                ["Fire_Flower", "Ultra_Shroom"],
                 ["Dried_Pasta", "Ultra_Shroom"],
                 ["Egg", "Ultra_Shroom"],
-                ["Iced_Potato", "Ultra_Shroom"],
-                ["Strange_Leaf", "Iced_Potato"],
+                ["Fire_Flower", "Ultra_Shroom"],
                 ["Hot_Shroom", "Potato_Salad"],
-                ["Spaghetti", "Potato_Salad"]
-
+                ["Iced_Potato", "Strange_Leaf"],
+                ["Iced_Potato", "Ultra_Shroom"],
+                ["Potato_Salad", "Spaghetti"]
             ]
-        },
+        }
     ]
 }
