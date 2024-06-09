@@ -1,354 +1,354 @@
 {
     "ingredients": [
-        { "name": "INTERNATIONAL_EXCLUSIVE"},
         { "name": "INVALID"},
-        { "name": "JAPAN_EXCLUSIVE"},
+        { "name": "INTERNATIONAL EXCLUSIVE"},
+        { "name": "JAPAN EXCLUSIVE"},
         { "name": "Apple", "chapter": 3 },
-        { "name": "Blue_Berry", "chapter": 6 },
-        { "name": "Bubble_Berry", "chapter": 6 },
-        { "name": "Cake_Mix", "chapter": 4 },
+        { "name": "Blue Berry", "chapter": 6 },
+        { "name": "Bubble Berry", "chapter": 6 },
+        { "name": "Cake Mix", "chapter": 4 },
         { "name": "Coconut", "chapter": 5 },
-        { "name": "Dried_Fruit", "chapter": 2 },
-        { "name": "Dried_Pasta", "chapter": 2 },
-        { "name": "Dried_Shroom", "chapter": 1 },
+        { "name": "Dried Fruit", "chapter": 2 },
+        { "name": "Dried Pasta", "chapter": 2 },
+        { "name": "Dried Shroom", "chapter": 1 },
         { "name": "Egg", "chapter": 2 },
-        { "name": "Fire_Flower", "chapter": 0 },
-        { "name": "Fried_Shroom", "chapter": 1 },
+        { "name": "Fire Flower", "chapter": 0 },
+        { "name": "Fried Shroom", "chapter": 1 },
         { "name": "Goomnut", "chapter": 0 },
-        { "name": "Hot_Shroom", "chapter": 1 },
-        { "name": "Iced_Potato", "chapter": 7 },
-        { "name": "Jammin'_Jelly", "chapter": 1 },
-        { "name": "Koopa_Leaf", "chapter": 1 },
+        { "name": "Hot Shroom", "chapter": 1 },
+        { "name": "Iced Potato", "chapter": 7 },
+        { "name": "Jammin' Jelly", "chapter": 1 },
+        { "name": "Koopa Leaf", "chapter": 1 },
         { "name": "Lemon", "chapter": 2 },
-        { "name": "Life_Shroom", "chapter": 2 },
+        { "name": "Life Shroom", "chapter": 2 },
         { "name": "Lime", "chapter": 2 },
         { "name": "Melon", "chapter": 5 },
         { "name": "Mushroom", "chapter": 0 },
         { "name": "Mystery?", "chapter": 3 },
-        { "name": "Potato_Salad", "chapter": 7 },
-        { "name": "Red_Berry", "chapter": 6 },
-        { "name": "Shroom_Steak", "chapter": 3 },
+        { "name": "Potato Salad", "chapter": 7 },
+        { "name": "Red Berry", "chapter": 6 },
+        { "name": "Shroom Steak", "chapter": 3 },
         { "name": "Spaghetti", "chapter": 2 },
-        { "name": "Special_Shake", "chapter": 4 },
-        { "name": "Stinky_Herb", "chapter": 6 },
-        { "name": "Strange_Leaf", "chapter": 3 },
-        { "name": "Super_Shroom", "chapter": 0 },
-        { "name": "Volt_Shroom", "chapter": 1 },
-        { "name": "Whacka's_Bump", "chapter": 2 },
-        { "name": "Yellow_Berry", "chapter": 6 }
+        { "name": "Special Shake", "chapter": 4 },
+        { "name": "Stinky Herb", "chapter": 6 },
+        { "name": "Strange Leaf", "chapter": 3 },
+        { "name": "Super Shroom", "chapter": 0 },
+        { "name": "Volt Shroom", "chapter": 1 },
+        { "name": "Whacka's Bump", "chapter": 2 },
+        { "name": "Yellow Berry", "chapter": 6 }
     ],
 
     "recipes": [
         {
-            "name": "Apple_Pie",
+            "name": "Apple Pie",
             "mystery?": true,
             "ingredients": [
-                ["Apple", "Cake_Mix"]
+                ["Apple", "Cake Mix"]
             ]
         },
         {
-            "name": "Big_Cookie",
+            "name": "Big Cookie",
             "mystery?": true,
             "ingredients": [
-                ["Blue_Berry", "Cake_Mix"],
-                ["Cake_Mix", "Egg"],
-                ["Cake_Mix", "Goomnut"],
-                ["Cake_Mix", "Red_Berry"],
-                ["Cake_Mix", "Yellow_Berry"]
+                ["Blue Berry", "Cake Mix"],
+                ["Cake Mix", "Egg"],
+                ["Cake Mix", "Goomnut"],
+                ["Cake Mix", "Red Berry"],
+                ["Cake Mix", "Yellow Berry"]
             ]
         },
         {
-            "name": "Bland_Meal",
+            "name": "Bland Meal",
             "mystery?": true,
             "ingredients": [
-                ["Blue_Berry", "Dried_Pasta"],
-                ["Blue_Berry", "Koopa_Leaf"],
-                ["Cake_Mix", "Iced_Potato"],
-                ["Coconut", "Dried_Pasta"],
-                ["Coconut", "Iced_Potato"],
-                ["Dried_Pasta", "Egg"],
-                ["Dried_Pasta", "Goomnut"],
-                ["Dried_Pasta", "Iced_Potato"],
-                ["Dried_Pasta", "Life_Shroom"],
-                ["Dried_Pasta", "Mushroom"],
-                ["Dried_Pasta", "Red_Berry"],
-                ["Dried_Pasta", "Strange_Leaf"],
-                ["Dried_Pasta", "Super_Shroom"],
-                ["Dried_Pasta", "Volt_Shroom"],
-                ["Dried_Pasta", "Yellow_Berry"],
-                ["Egg", "Iced_Potato"],
-                ["Egg", "Life_Shroom"],
+                ["Blue Berry", "Dried Pasta"],
+                ["Blue Berry", "Koopa Leaf"],
+                ["Cake Mix", "Iced Potato"],
+                ["Coconut", "Dried Pasta"],
+                ["Coconut", "Iced Potato"],
+                ["Dried Pasta", "Egg"],
+                ["Dried Pasta", "Goomnut"],
+                ["Dried Pasta", "Iced Potato"],
+                ["Dried Pasta", "Life Shroom"],
+                ["Dried Pasta", "Mushroom"],
+                ["Dried Pasta", "Red Berry"],
+                ["Dried Pasta", "Strange Leaf"],
+                ["Dried Pasta", "Super Shroom"],
+                ["Dried Pasta", "Volt Shroom"],
+                ["Dried Pasta", "Yellow Berry"],
+                ["Egg", "Iced Potato"],
+                ["Egg", "Life Shroom"],
                 ["Egg", "Mushroom"],
-                ["Egg", "Super_Shroom"],
-                ["Egg", "Volt_Shroom"],
-                ["Fire_Flower", "Goomnut"],
-                ["Fire_Flower", "Life_Shroom"],
-                ["Fire_Flower", "Super_Shroom"],
-                ["Fire_Flower", "Volt_Shroom"],
-                ["Fried_Shroom", "Potato_Salad"],
-                ["Goomnut", "Koopa_Leaf"],
-                ["Goomnut", "Strange_Leaf"],
-                ["Iced_Potato", "Life_Shroom"],
-                ["Iced_Potato", "Mushroom"],
-                ["Iced_Potato", "Super_Shroom"],
-                ["Iced_Potato", "Volt_Shroom"],
-                ["Koopa_Leaf", "Red_Berry"],
-                ["Koopa_Leaf", "Yellow_Berry"]
+                ["Egg", "Super Shroom"],
+                ["Egg", "Volt Shroom"],
+                ["Fire Flower", "Goomnut"],
+                ["Fire Flower", "Life Shroom"],
+                ["Fire Flower", "Super Shroom"],
+                ["Fire Flower", "Volt Shroom"],
+                ["Fried Shroom", "Potato Salad"],
+                ["Goomnut", "Koopa Leaf"],
+                ["Goomnut", "Strange Leaf"],
+                ["Iced Potato", "Life Shroom"],
+                ["Iced Potato", "Mushroom"],
+                ["Iced Potato", "Super Shroom"],
+                ["Iced Potato", "Volt Shroom"],
+                ["Koopa Leaf", "Red Berry"],
+                ["Koopa Leaf", "Yellow Berry"]
             ]
         },
         {
-            "name": "Boiled_Egg",
+            "name": "Boiled Egg",
             "mystery?": true,
             "ingredients": [
-                ["Egg", "Stinky_Herb"],
-                ["Egg", "Strange_Leaf"]
+                ["Egg", "Stinky Herb"],
+                ["Egg", "Strange Leaf"]
             ]
         },
         {
             "name": "Cake",
             "mystery?": false,
             "ingredients": [
-                ["Cake_Mix"]
+                ["Cake Mix"]
             ]
         },
         {
-            "name": "Coco_Pop",
+            "name": "Coco Pop",
             "mystery?": false,
             "ingredients": [
-                ["Cake_Mix", "Coconut"]
+                ["Cake Mix", "Coconut"]
             ]
         },
         {
-            "name": "Deluxe_Feast",
+            "name": "Deluxe Feast",
             "mystery?": false,
             "ingredients": [
-                ["Potato_Salad", "Shroom_Steak"],
-                ["Strange_Leaf", "Whacka's_Bump"]
+                ["Potato Salad", "Shroom Steak"],
+                ["Strange Leaf", "Whacka's Bump"]
             ]
         },
         {
-            "name": "Dizzy_Dial",
+            "name": "Dizzy Dial",
             "mystery?": true,
             "ingredients": [
-                ["Strange_Leaf", "MISTAKE"],
-                ["Stinky_Herb", "Strange_Leaf"],
-                ["Strange_Leaf", "Volt_Shroom"]
+                ["Stinky Herb", "Strange Leaf"],
+                ["Strange Leaf", "MISTAKE"],
+                ["Strange Leaf", "Volt Shroom"]
             ]
         },
         {
-            "name": "Egg_Missile",
+            "name": "Egg Missile",
             "mystery?": true,
             "ingredients": [
-                ["Egg", "Fire_Flower"]
+                ["Egg", "Fire Flower"]
             ]
         },
         {
-            "name": "Electro_Pop",
+            "name": "Electro Pop",
             "mystery?": false,
             "ingredients": [
-                ["Cake_Mix", "Volt_Shroom"]
+                ["Cake Mix", "Volt Shroom"]
             ]
         },
         {
-            "name": "Fire_Flower",
+            "name": "Fire Flower",
             "mystery?": true,
             "ingredients": [
-                ["Dried_Fruit", "Strange_Leaf"]
+                ["Dried Fruit", "Strange Leaf"]
             ]
         },
         {
-            "name": "Fire_Pop",
+            "name": "Fire Pop",
             "mystery?": false,
             "ingredients": [
-                ["Cake_Mix", "Fire_Flower"]
+                ["Cake Mix", "Fire Flower"]
             ]
         },
         {
-            "name": "Fried_Egg",
+            "name": "Fried Egg",
             "mystery?": true,
             "ingredients": [
                 ["Egg"]
             ]
         },
         {
-            "name": "Fried_Shroom",
+            "name": "Fried Shroom",
             "mystery?": true,
             "ingredients": [
-                ["Dried_Shroom", "MISTAKE"],
+                ["Dried Shroom", "MISTAKE"],
+                ["Dried Shroom", "Fire Flower"],
+                ["Dried Shroom", "Mushroom"],
                 ["Mushroom"],
-                ["Super_Shroom"],
-                ["Dried_Shroom", "Fire_Flower"],
-                ["Dried_Shroom", "Mushroom"]
+                ["Super Shroom"]
             ]
         },
         {
-            "name": "Frozen_Fries",
+            "name": "Frozen Fries",
             "mystery?": false,
             "ingredients": [
-                ["Fire_Flower", "Iced_Potato"]
+                ["Fire Flower", "Iced Potato"]
             ]
         },
         {
-            "name": "Healthy_Juice",
+            "name": "Healthy Juice",
             "mystery?": false,
             "ingredients": [
-                ["Dried_Shroom", "Special_Shake"],
-                ["Special_Shake", "Stinky_Herb"],
-                ["Special_Shake", "Strange_Leaf"]
+                ["Dried Shroom", "Special Shake"],
+                ["Special Shake", "Stinky Herb"],
+                ["Special Shake", "Strange Leaf"]
             ]
         },
         {
-            "name": "Honey_Candy",
+            "name": "Honey Candy",
             "mystery?": false,
             "ingredients": [
-                ["Cake_Mix", "Honey_Syrup"]
+                ["Cake Mix", "Honey Syrup"]
             ]
         },
         {
-            "name": "Honey_Shroom",
+            "name": "Honey Shroom",
             "mystery?": true,
             "ingredients": [
-                ["Honey_Syrup", "Mushroom"]
+                ["Honey Syrup", "Mushroom"]
             ]
         },
         {
-            "name": "Honey_Super",
+            "name": "Honey Super",
             "mystery?": false,
             "ingredients": [
-                ["Honey_Syrup", "Life_Shroom"],
-                ["Honey_Syrup", "Super_Shroom"],
-                ["Honey_Syrup", "Volt_Shroom"]
+                ["Honey Syrup", "Life Shroom"],
+                ["Honey Syrup", "Super Shroom"],
+                ["Honey Syrup", "Volt Shroom"]
             ]
         },
         {
-            "name": "Honey_Ultra",
+            "name": "Honey Ultra",
             "mystery?": false,
             "ingredients": [
-                ["Honey_Syrup", "Ultra_Shroom"]
+                ["Honey Syrup", "Ultra Shroom"]
             ]
         },
         {
-            "name": "Hot_Shroom",
+            "name": "Hot Shroom",
             "mystery?": false,
             "ingredients": [
-                ["Life_Shroom"],
-                ["Volt_Shroom"],
-                ["Dried_Shroom", "Super_Shroom"],
-                ["Dried_Shroom", "Volt_Shroom"],
-                ["Fire_Flower", "Mushroom"],
-                ["Mushroom", "Super_Shroom"],
-                ["Mushroom", "Volt_Shroom"],
-                ["Super_Shroom", "Volt_Shroom"]
+                ["Dried Shroom", "Super Shroom"],
+                ["Dried Shroom", "Volt Shroom"],
+                ["Fire Flower", "Mushroom"],
+                ["Life Shroom"],
+                ["Mushroom", "Super Shroom"],
+                ["Mushroom", "Volt Shroom"],
+                ["Super Shroom", "Volt Shroom"],
+                ["Volt Shroom"]
             ]
         },
         {
-            "name": "Jelly_Pop",
+            "name": "Jelly Pop",
             "mystery?": false,
             "ingredients": [
-                ["Cake_Mix", "Jammin'_Jelly"]
+                ["Cake Mix", "Jammin' Jelly"]
             ]
         },
         {
-            "name": "Jelly_Shroom",
+            "name": "Jelly Shroom",
             "mystery?": false,
             "ingredients": [
-                ["Jammin'_Jelly", "Mushroom"]
+                ["Jammin' Jelly", "Mushroom"]
             ]
         },
         {
-            "name": "Jelly_Super",
+            "name": "Jelly Super",
             "mystery?": false,
             "ingredients": [
-                ["Jammin'_Jelly", "Life_Shroom"],
-                ["Jammin'_Jelly", "Super_Shroom"],
-                ["Jammin'_Jelly", "Volt_Shroom"]
+                ["Jammin' Jelly", "Life Shroom"],
+                ["Jammin' Jelly", "Super Shroom"],
+                ["Jammin' Jelly", "Volt Shroom"]
             ]
         },
         {
-            "name": "Jelly_Ultra",
+            "name": "Jelly Ultra",
             "mystery?": false,
             "ingredients": [
-                ["Jammin'_Jelly", "Ultra_Shroom"]
+                ["Jammin' Jelly", "Ultra Shroom"]
             ]
         },
         {
-            "name": "Kooky_Cookie",
+            "name": "Kooky Cookie",
             "mystery?": true,
             "ingredients": [
-                ["Cake_Mix", "Koopa_Leaf"],
-                ["Cake_Mix", "Maple_Syrup"],
-                ["Cake_Mix", "Stinky_Herb"]
+                ["Cake Mix", "Koopa Leaf"],
+                ["Cake Mix", "Maple Syrup"],
+                ["Cake Mix", "Stinky Herb"]
             ]
         },
         {
             "name": "Koopasta",
             "mystery?": true,
             "ingredients": [
-                ["Dried_Pasta", "Koopa_Leaf"]
+                ["Dried Pasta", "Koopa Leaf"]
             ]
         },
         {
-            "name": "Koopa_Tea",
+            "name": "Koopa Tea",
             "mystery?": true,
             "ingredients": [
-                ["Koopa_Leaf"]
+                ["Koopa Leaf"]
             ]
         },
         {
-            "name": "Lemon_Candy",
+            "name": "Lemon Candy",
             "mystery?": false,
             "ingredients": [
-                ["Cake_Mix", "Lemon"]
+                ["Cake Mix", "Lemon"]
             ]
         },
         {
-            "name": "Life_Shroom",
+            "name": "Life Shroom",
             "mystery?": true,
             "ingredients": [
-                ["Goomnut", "Life_Shroom"],
-                ["Goomnut", "Mushroom", "JAPAN_EXCLUSIVE"],
-                ["Goomnut", "Super_Shroom"],
-                ["Goomnut", "Ultra_Shroom"],
-                ["Goomnut", "Volt_Shroom"],
-                ["Koopa_Leaf", "Life_Shroom"],
-                ["Koopa_Leaf", "Mushroom", "JAPAN_EXCLUSIVE"],
-                ["Koopa_Leaf", "Super_Shroom"],
-                ["Koopa_Leaf", "Ultra_Shroom"],
-                ["Koopa_Leaf", "Volt_Shroom"],
-                ["Life_Shroom", "Strange_Leaf"],
-                ["Mushroom", "Strange_Leaf", "JAPAN_EXCLUSIVE"],
-                ["Strange_Leaf", "Super_Shroom"],
-                ["Strange_Leaf", "Ultra_Shroom"]
+                ["Goomnut", "Life Shroom"],
+                ["Goomnut", "Mushroom", "JAPAN EXCLUSIVE"],
+                ["Goomnut", "Super Shroom"],
+                ["Goomnut", "Ultra Shroom"],
+                ["Goomnut", "Volt Shroom"],
+                ["Koopa Leaf", "Life Shroom"],
+                ["Koopa Leaf", "Mushroom", "JAPAN EXCLUSIVE"],
+                ["Koopa Leaf", "Super Shroom"],
+                ["Koopa Leaf", "Ultra Shroom"],
+                ["Koopa Leaf", "Volt Shroom"],
+                ["Life Shroom", "Strange Leaf"],
+                ["Mushroom", "Strange Leaf", "JAPAN EXCLUSIVE"],
+                ["Strange Leaf", "Super Shroom"],
+                ["Strange Leaf", "Ultra Shroom"]
             ]
         },
         {
-            "name": "Lime_Candy",
+            "name": "Lime Candy",
             "mystery?": false,
             "ingredients": [
-                ["Cake_Mix", "Lime"]
+                ["Cake Mix", "Lime"]
             ]
         },
         {
-            "name": "Maple_Shroom",
+            "name": "Maple Shroom",
             "mystery?": false,
             "ingredients": [
-                ["Maple_Syrup", "Mushroom"]
+                ["Maple Syrup", "Mushroom"]
             ]
         },
         {
-            "name": "Maple_Super",
+            "name": "Maple Super",
             "mystery?": false,
             "ingredients": [
-                ["Life_Shroom", "Maple_Syrup"],
-                ["Maple_Syrup", "Super_Shroom"],
-                ["Maple_Syrup", "Volt_Shroom"]
+                ["Life Shroom", "Maple Syrup"],
+                ["Maple Syrup", "Super Shroom"],
+                ["Maple Syrup", "Volt Shroom"]
             ]
         },
         {
-            "name": "Maple_Ultra",
+            "name": "Maple Ultra",
             "mystery?": false,
             "ingredients": [
-                ["Maple_Syrup", "Ultra_Shroom"]
+                ["Maple Syrup", "Ultra Shroom"]
             ]
         },
         {
@@ -359,212 +359,212 @@
             ]
         },
         {
-            "name": "Nutty_Cake",
+            "name": "Nutty Cake",
             "mystery?": false,
             "ingredients": [
                 ["Goomnut"]
             ]
         },
         {
-            "name": "Potato_Salad",
+            "name": "Potato Salad",
             "mystery?": true,
             "ingredients": [
-                ["Iced_Potato"]
+                ["Iced Potato"]
             ]
         },
         {
-            "name": "Shroom_Cake",
+            "name": "Shroom Cake",
             "mystery?": false,
             "ingredients": [
-                ["Cake_Mix", "Mushroom"],
-                ["Cake_Mix", "Super_Shroom"]
+                ["Cake Mix", "Mushroom"],
+                ["Cake Mix", "Super Shroom"]
             ]
         },
         {
-            "name": "Shroom_Steak",
+            "name": "Shroom Steak",
             "mystery?": false,
             "ingredients": [
-                ["Ultra_Shroom"],
-                ["Dried_Shroom", "Life_Shroom"],
-                ["Dried_Shroom", "Ultra_Shroom"],
-                ["Life_Shroom", "Mushroom"],
-                ["Life_Shroom", "Super_Shroom"],
-                ["Life_Shroom", "Ultra_Shroom"],
-                ["Mushroom", "Ultra_Shroom"],
-                ["Super_Shroom", "Ultra_Shroom"],
-                ["Ultra_Shroom", "Volt_Shroom"]
+                ["Dried Shroom", "Life Shroom"],
+                ["Dried Shroom", "Ultra Shroom"],
+                ["Life Shroom", "Mushroom"],
+                ["Life Shroom", "Super Shroom"],
+                ["Life Shroom", "Ultra Shroom"],
+                ["Mushroom", "Ultra Shroom"],
+                ["Super Shroom", "Ultra Shroom"],
+                ["Ultra Shroom"],
+                ["Ultra Shroom", "Volt Shroom"]
             ]
         },
         {
-            "name": "Sleepy_Sheep",
+            "name": "Sleepy Sheep",
             "mystery?": true,
             "ingredients": [
-                ["Blue_Berry", "Strange_Leaf"],
-                ["Red_Berry", "Strange_Leaf"],
-                ["Strange_Leaf", "Yellow_Berry"]
+                ["Blue Berry", "Strange Leaf"],
+                ["Red Berry", "Strange Leaf"],
+                ["Strange Leaf", "Yellow Berry"]
             ]
         },
         {
             "name": "Spaghetti",
             "mystery?": true,
             "ingredients": [
-                ["Dried_Pasta"]
+                ["Dried Pasta"]
             ]
         },
         {
-            "name": "Special_Shake",
+            "name": "Special Shake",
             "mystery?": true,
             "ingredients": [
-                ["Melon"],
-                ["Apple", "Jammin'_Jelly"],
+                ["Apple", "Jammin' Jelly"],
                 ["Apple", "Melon"],
-                ["Blue_Berry", "Jammin'_Jelly"],
-                ["Blue_Berry", "Melon"],
-                ["Coconut", "Jammin'_Jelly"],
-                ["Honey_Syrup", "Jammin'_Jelly"],
-                ["Honey_Syrup", "Melon"],
-                ["Jammin'_Jelly", "Lemon"],
-                ["Jammin'_Jelly", "Lime"],
-                ["Jammin'_Jelly", "Maple_Syrup"],
-                ["Jammin'_Jelly", "Melon"],
-                ["Jammin'_Jelly", "Red_Berry"],
-                ["Jammin'_Jelly", "Yellow_Berry"],
-                ["Koopa_Leaf", "Melon"],
+                ["Blue Berry", "Jammin' Jelly"],
+                ["Blue Berry", "Melon"],
+                ["Coconut", "Jammin' Jelly"],
+                ["Honey Syrup", "Jammin' Jelly"],
+                ["Honey Syrup", "Melon"],
+                ["Jammin' Jelly", "Lemon"],
+                ["Jammin' Jelly", "Lime"],
+                ["Jammin' Jelly", "Maple Syrup"],
+                ["Jammin' Jelly", "Melon"],
+                ["Jammin' Jelly", "Red Berry"],
+                ["Jammin' Jelly", "Yellow Berry"],
+                ["Koopa Leaf", "Melon"],
                 ["Lemon", "Melon"],
                 ["Lime", "Melon"],
-                ["Maple_Syrup", "Melon"],
-                ["Melon", "Red_Berry"],
-                ["Melon", "Strange_Leaf"],
-                ["Melon", "Yellow_Berry"]
+                ["Maple Syrup", "Melon"],
+                ["Melon"],
+                ["Melon", "Red Berry"],
+                ["Melon", "Strange Leaf"],
+                ["Melon", "Yellow Berry"]
             ]
         },
         {
-            "name": "Spicy_Soup",
+            "name": "Spicy Soup",
             "mystery?": true,
             "ingredients": [
-                ["Fire_Flower"]
+                ["Fire Flower"]
             ]
         },
         {
-            "name": "Strange_Cake",
+            "name": "Strange Cake",
             "mystery?": false,
             "ingredients": [
-                ["Cake_Mix", "Strange_Leaf"]
+                ["Cake Mix", "Strange Leaf"]
             ]
         },
         {
-            "name": "Super_Soda",
+            "name": "Super Soda",
             "mystery?": true,
             "ingredients": [
                 ["Apple"],
-                ["Blue_Berry", "MISTAKE"],
-                ["Honey_Syrup"],
-                ["Jammin'_Jelly"],
-                ["Maple_Syrup"],
-                ["Red_Berry", "MISTAKE"],
-                ["Yellow_Berry", "MISTAKE"],
-                ["Apple", "Blue_Berry"],
+                ["Apple", "Blue Berry"],
                 ["Apple", "Coconut"],
                 ["Apple", "Lemon"],
                 ["Apple", "Lime"],
-                ["Apple", "Maple_Syrup"],
-                ["Apple", "Red_Berry"],
-                ["Apple", "Yellow_Berry"],
-                ["Blue_Berry", "Coconut"],
-                ["Blue_Berry", "Lemon"],
-                ["Blue_Berry", "Lime"],
-                ["Blue_Berry", "Maple_Syrup"],
-                ["Blue_Berry", "Red_Berry"],
-                ["Blue_Berry", "Yellow_Berry"],
-                ["Coconut", "Koopa_Leaf"],
-                ["Coconut", "Maple_Syrup"],
+                ["Apple", "Maple Syrup"],
+                ["Apple", "Red Berry"],
+                ["Apple", "Yellow Berry"],
+                ["Blue Berry", "MISTAKE"],
+                ["Blue Berry", "Coconut"],
+                ["Blue Berry", "Lemon"],
+                ["Blue Berry", "Lime"],
+                ["Blue Berry", "Maple Syrup"],
+                ["Blue Berry", "Red Berry"],
+                ["Blue Berry", "Yellow Berry"],
+                ["Coconut", "Koopa Leaf"],
+                ["Coconut", "Maple Syrup"],
                 ["Coconut", "Melon"],
-                ["Coconut", "Red_Berry"],
-                ["Coconut", "Yellow_Berry"],
-                ["Honey_Syrup", "Koopa_Leaf"],
-                ["Honey_Syrup", "Maple_Syrup"],
-                ["Jammin'_Jelly", "Koopa_Leaf"],
-                ["Koopa_Leaf", "Lemon"],
-                ["Koopa_Leaf", "Lime"],
-                ["Koopa_Leaf", "Maple_Syrup"],
+                ["Coconut", "Red Berry"],
+                ["Coconut", "Yellow Berry"],
+                ["Honey Syrup"],
+                ["Honey Syrup", "Koopa Leaf"],
+                ["Honey Syrup", "Maple Syrup"],
+                ["Jammin' Jelly"],
+                ["Jammin' Jelly", "Koopa Leaf"],
+                ["Koopa Leaf", "Lemon"],
+                ["Koopa Leaf", "Lime"],
+                ["Koopa Leaf", "Maple Syrup"],
                 ["Lemon", "Lime"],
-                ["Lemon", "Maple_Syrup"],
-                ["Lemon", "Red_Berry"],
-                ["Lemon", "Yellow_Berry"],
-                ["Lime", "Maple_Syrup"],
-                ["Lime", "Red_Berry"],
-                ["Lime", "Yellow_Berry"],
-                ["Maple_Syrup", "Red_Berry"],
-                ["Maple_Syrup", "Yellow_Berry"],
-                ["Red_Berry", "Yellow_Berry"]
+                ["Lemon", "Maple Syrup"],
+                ["Lemon", "Red Berry"],
+                ["Lemon", "Yellow Berry"],
+                ["Lime", "Maple Syrup"],
+                ["Lime", "Red Berry"],
+                ["Lime", "Yellow Berry"],
+                ["Maple Syrup"],
+                ["Maple Syrup", "Red Berry"],
+                ["Maple Syrup", "Yellow Berry"],
+                ["Red Berry", "MISTAKE"],
+                ["Red Berry", "Yellow Berry"],
+                ["Yellow Berry", "MISTAKE"]
             ]
         },
         {
-            "name": "Sweet_Shroom",
+            "name": "Sweet Shroom",
             "mystery?": false,
             "ingredients": [
-                ["Cake_Mix", "Life_Shroom"],
-                ["Cake_Mix", "Ultra_Shroom"]
+                ["Cake Mix", "Life Shroom"],
+                ["Cake Mix", "Ultra Shroom"]
             ]
         },
         {
-            "name": "Tasty_Tonic",
+            "name": "Tasty Tonic",
             "mystery?": true,
             "ingredients": [
-                ["Bubble_Berry", "MISTAKE"],
+                ["Apple", "Honey Syrup"],
+                ["Blue Berry", "Honey Syrup"],
+                ["Bubble Berry", "MISTAKE"],
                 ["Coconut"],
+                ["Coconut", "Honey Syrup"],
+                ["Honey Syrup", "Lemon"],
+                ["Honey Syrup", "Lime"],
+                ["Honey Syrup", "Red Berry"],
+                ["Honey Syrup", "Yellow Berry"],
                 ["Lemon"],
-                ["Lime"],
-                ["Apple", "Honey_Syrup"],
-                ["Blue_Berry", "Honey_Syrup"],
-                ["Coconut", "Honey_Syrup"],
-                ["Honey_Syrup", "Lemon"],
-                ["Honey_Syrup", "Lime"],
-                ["Honey_Syrup", "Red_Berry"],
-                ["Honey_Syrup", "Yellow_Berry"]
+                ["Lime"]
             ]
         },
         {
-            "name": "Thunder_Rage",
+            "name": "Thunder Rage",
             "mystery?": true,
             "ingredients": [
-                ["Dried_Fruit", "Volt_Shroom"]
+                ["Dried Fruit", "Volt Shroom"]
             ]
         },
         {
-            "name": "Volt_Shroom",
+            "name": "Volt Shroom",
             "mystery?": true,
             "ingredients": [
-                ["Dried_Fruit", "Life_Shroom"],
-                ["Dried_Fruit", "Mushroom"],
-                ["Dried_Fruit", "Super_Shroom"],
-                ["Dried_Fruit", "Ultra_Shroom"],
-                ["Goomnut", "Mushroom", "INTERNATIONAL_EXCLUSIVE"],
-                ["Koopa_Leaf", "Mushroom", "INTERNATIONAL_EXCLUSIVE"],
-                ["Mushroom", "Strange_Leaf", "INTERNATIONAL_EXCLUSIVE"]
+                ["Dried Fruit", "Life Shroom"],
+                ["Dried Fruit", "Mushroom"],
+                ["Dried Fruit", "Super Shroom"],
+                ["Dried Fruit", "Ultra Shroom"],
+                ["Goomnut", "Mushroom", "INTERNATIONAL EXCLUSIVE"],
+                ["Koopa Leaf", "Mushroom", "INTERNATIONAL EXCLUSIVE"],
+                ["Mushroom", "Strange Leaf", "INTERNATIONAL EXCLUSIVE"]
             ]
         },        
         {
-            "name": "Yoshi_Cookie",
+            "name": "Yoshi Cookie",
             "mystery?": false,
             "ingredients": [
-                ["Cake_Mix", "Melon"]
+                ["Cake Mix", "Melon"]
             ]
         },
         {
-            "name": "Yummy_Meal",
+            "name": "Yummy Meal",
             "mystery?": false,
             "ingredients": [
-                ["Whacka's_Bump", "MISTAKE"],
-                ["Dried_Fruit", "Dried_Pasta"],
-                ["Dried_Fruit", "Iced_Potato"],
-                ["Dried_Pasta", "Ultra_Shroom"],
-                ["Egg", "Ultra_Shroom"],
-                ["Fire_Flower", "Ultra_Shroom"],
-                ["Hot_Shroom", "Potato_Salad"],
-                ["Iced_Potato", "Strange_Leaf"],
-                ["Iced_Potato", "Ultra_Shroom"],
-                ["Potato_Salad", "Spaghetti"]
+                ["Dried Fruit", "Dried Pasta"],
+                ["Dried Fruit", "Iced Potato"],
+                ["Dried Pasta", "Ultra Shroom"],
+                ["Egg", "Ultra Shroom"],
+                ["Fire Flower", "Ultra Shroom"],
+                ["Hot Shroom", "Potato Salad"],
+                ["Iced Potato", "Strange Leaf"],
+                ["Iced Potato", "Ultra Shroom"],
+                ["Potato Salad", "Spaghetti"],
+                ["Whacka's Bump", "MISTAKE"]
             ]
         }
     ]
