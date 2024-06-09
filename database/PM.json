@@ -42,6 +42,7 @@
         {
             "name": "Apple Pie",
             "mystery?": true,
+            "sell price": 10,
             "ingredients": [
                 ["Apple", "Cake Mix"]
             ]
@@ -49,6 +50,7 @@
         {
             "name": "Big Cookie",
             "mystery?": true,
+            "sell price": 10,
             "ingredients": [
                 ["Blue Berry", "Cake Mix"],
                 ["Cake Mix", "Egg"],
@@ -60,6 +62,7 @@
         {
             "name": "Bland Meal",
             "mystery?": true,
+            "sell price": 15,
             "ingredients": [
                 ["Blue Berry", "Dried Pasta"],
                 ["Blue Berry", "Koopa Leaf"],
@@ -99,6 +102,7 @@
         {
             "name": "Boiled Egg",
             "mystery?": true,
+            "sell price": 10,
             "ingredients": [
                 ["Egg", "Stinky Herb"],
                 ["Egg", "Strange Leaf"]
@@ -107,6 +111,7 @@
         {
             "name": "Cake",
             "mystery?": false,
+            "sell price": 15,
             "ingredients": [
                 ["Cake Mix"]
             ]
@@ -114,6 +119,7 @@
         {
             "name": "Coco Pop",
             "mystery?": false,
+            "sell price": 12,
             "ingredients": [
                 ["Cake Mix", "Coconut"]
             ]
@@ -121,6 +127,7 @@
         {
             "name": "Deluxe Feast",
             "mystery?": false,
+            "sell price": 70,
             "ingredients": [
                 ["Potato Salad", "Shroom Steak"],
                 ["Strange Leaf", "Whacka's Bump"]
@@ -129,6 +136,7 @@
         {
             "name": "Dizzy Dial",
             "mystery?": true,
+            "sell price": 6,
             "ingredients": [
                 ["Stinky Herb", "Strange Leaf"],
                 ["Strange Leaf", "MISTAKE"],
@@ -138,6 +146,7 @@
         {
             "name": "Egg Missile",
             "mystery?": true,
+            "sell price": 10,
             "ingredients": [
                 ["Egg", "Fire Flower"]
             ]
@@ -145,6 +154,7 @@
         {
             "name": "Electro Pop",
             "mystery?": false,
+            "sell price": 25,
             "ingredients": [
                 ["Cake Mix", "Volt Shroom"]
             ]
@@ -152,6 +162,7 @@
         {
             "name": "Fire Flower",
             "mystery?": true,
+            "sell price": 4,
             "ingredients": [
                 ["Dried Fruit", "Strange Leaf"]
             ]
@@ -159,6 +170,7 @@
         {
             "name": "Fire Pop",
             "mystery?": false,
+            "sell price": 20,
             "ingredients": [
                 ["Cake Mix", "Fire Flower"]
             ]
@@ -166,6 +178,7 @@
         {
             "name": "Fried Egg",
             "mystery?": true,
+            "sell price": 7,
             "ingredients": [
                 ["Egg"]
             ]
@@ -173,6 +186,7 @@
         {
             "name": "Fried Shroom",
             "mystery?": true,
+            "sell price": 5,
             "ingredients": [
                 ["Dried Shroom", "MISTAKE"],
                 ["Dried Shroom", "Fire Flower"],
@@ -184,6 +198,7 @@
         {
             "name": "Frozen Fries",
             "mystery?": false,
+            "sell price": 18,
             "ingredients": [
                 ["Fire Flower", "Iced Potato"]
             ]
@@ -191,6 +206,7 @@
         {
             "name": "Healthy Juice",
             "mystery?": false,
+            "sell price": 25,
             "ingredients": [
                 ["Dried Shroom", "Special Shake"],
                 ["Special Shake", "Stinky Herb"],
@@ -200,6 +216,7 @@
         {
             "name": "Honey Candy",
             "mystery?": false,
+            "sell price": 15,
             "ingredients": [
                 ["Cake Mix", "Honey Syrup"]
             ]
@@ -207,6 +224,7 @@
         {
             "name": "Honey Shroom",
             "mystery?": true,
+            "sell price": 10,
             "ingredients": [
                 ["Honey Syrup", "Mushroom"]
             ]
@@ -214,6 +232,7 @@
         {
             "name": "Honey Super",
             "mystery?": false,
+            "sell price": 20,
             "ingredients": [
                 ["Honey Syrup", "Life Shroom"],
                 ["Honey Syrup", "Super Shroom"],
@@ -223,6 +242,7 @@
         {
             "name": "Honey Ultra",
             "mystery?": false,
+            "sell price": 75,
             "ingredients": [
                 ["Honey Syrup", "Ultra Shroom"]
             ]
@@ -230,6 +250,7 @@
         {
             "name": "Hot Shroom",
             "mystery?": false,
+            "sell price": 15,
             "ingredients": [
                 ["Dried Shroom", "Super Shroom"],
                 ["Dried Shroom", "Volt Shroom"],
@@ -244,6 +265,7 @@
         {
             "name": "Jelly Pop",
             "mystery?": false,
+            "sell price": 100,
             "ingredients": [
                 ["Cake Mix", "Jammin' Jelly"]
             ]
@@ -251,6 +273,7 @@
         {
             "name": "Jelly Shroom",
             "mystery?": false,
+            "sell price": 75,
             "ingredients": [
                 ["Jammin' Jelly", "Mushroom"]
             ]
@@ -258,6 +281,7 @@
         {
             "name": "Jelly Super",
             "mystery?": false,
+            "sell price": 100,
             "ingredients": [
                 ["Jammin' Jelly", "Life Shroom"],
                 ["Jammin' Jelly", "Super Shroom"],
@@ -267,6 +291,7 @@
         {
             "name": "Jelly Ultra",
             "mystery?": false,
+            "sell price": 200,
             "ingredients": [
                 ["Jammin' Jelly", "Ultra Shroom"]
             ]
@@ -274,6 +299,7 @@
         {
             "name": "Kooky Cookie",
             "mystery?": true,
+            "sell price": 12,
             "ingredients": [
                 ["Cake Mix", "Koopa Leaf"],
                 ["Cake Mix", "Maple Syrup"],
@@ -283,6 +309,7 @@
         {
             "name": "Koopasta",
             "mystery?": true,
+            "sell price": 10,
             "ingredients": [
                 ["Dried Pasta", "Koopa Leaf"]
             ]
@@ -290,6 +317,7 @@
         {
             "name": "Koopa Tea",
             "mystery?": true,
+            "sell price": 3,
             "ingredients": [
                 ["Koopa Leaf"]
             ]
@@ -297,6 +325,7 @@
         {
             "name": "Lemon Candy",
             "mystery?": false,
+            "sell price": 15,
             "ingredients": [
                 ["Cake Mix", "Lemon"]
             ]
@@ -304,6 +333,7 @@
         {
             "name": "Life Shroom",
             "mystery?": true,
+            "sell price": 20,
             "ingredients": [
                 ["Goomnut", "Life Shroom"],
                 ["Goomnut", "Mushroom", "JAPAN EXCLUSIVE"],
@@ -324,6 +354,7 @@
         {
             "name": "Lime Candy",
             "mystery?": false,
+            "sell price": 15,
             "ingredients": [
                 ["Cake Mix", "Lime"]
             ]
@@ -331,6 +362,7 @@
         {
             "name": "Maple Shroom",
             "mystery?": false,
+            "sell price": 25,
             "ingredients": [
                 ["Maple Syrup", "Mushroom"]
             ]
@@ -338,6 +370,7 @@
         {
             "name": "Maple Super",
             "mystery?": false,
+            "sell price": 35,
             "ingredients": [
                 ["Life Shroom", "Maple Syrup"],
                 ["Maple Syrup", "Super Shroom"],
@@ -347,6 +380,7 @@
         {
             "name": "Maple Ultra",
             "mystery?": false,
+            "sell price": 100,
             "ingredients": [
                 ["Maple Syrup", "Ultra Shroom"]
             ]
@@ -354,6 +388,7 @@
         {
             "name": "Mistake",
             "mystery?": true,
+            "sell price": 1,
             "ingredients": [
                 ["INVALID"]
             ]
@@ -361,6 +396,7 @@
         {
             "name": "Nutty Cake",
             "mystery?": false,
+            "sell price": 6,
             "ingredients": [
                 ["Goomnut"]
             ]
@@ -368,6 +404,7 @@
         {
             "name": "Potato Salad",
             "mystery?": true,
+            "sell price": 6,
             "ingredients": [
                 ["Iced Potato"]
             ]
@@ -375,6 +412,7 @@
         {
             "name": "Shroom Cake",
             "mystery?": false,
+            "sell price": 20,
             "ingredients": [
                 ["Cake Mix", "Mushroom"],
                 ["Cake Mix", "Super Shroom"]
@@ -383,6 +421,7 @@
         {
             "name": "Shroom Steak",
             "mystery?": false,
+            "sell price": 45,
             "ingredients": [
                 ["Dried Shroom", "Life Shroom"],
                 ["Dried Shroom", "Ultra Shroom"],
@@ -398,6 +437,7 @@
         {
             "name": "Sleepy Sheep",
             "mystery?": true,
+            "sell price": 4,
             "ingredients": [
                 ["Blue Berry", "Strange Leaf"],
                 ["Red Berry", "Strange Leaf"],
@@ -407,6 +447,7 @@
         {
             "name": "Spaghetti",
             "mystery?": true,
+            "sell price": 7,
             "ingredients": [
                 ["Dried Pasta"]
             ]
@@ -414,6 +455,7 @@
         {
             "name": "Special Shake",
             "mystery?": true,
+            "sell price": 10,
             "ingredients": [
                 ["Apple", "Jammin' Jelly"],
                 ["Apple", "Melon"],
@@ -441,6 +483,7 @@
         {
             "name": "Spicy Soup",
             "mystery?": true,
+            "sell price": 10,
             "ingredients": [
                 ["Fire Flower"]
             ]
@@ -448,6 +491,7 @@
         {
             "name": "Strange Cake",
             "mystery?": false,
+            "sell price": 10,
             "ingredients": [
                 ["Cake Mix", "Strange Leaf"]
             ]
@@ -455,6 +499,7 @@
         {
             "name": "Super Soda",
             "mystery?": true,
+            "sell price": 7,
             "ingredients": [
                 ["Apple"],
                 ["Apple", "Blue Berry"],
@@ -502,6 +547,7 @@
         {
             "name": "Sweet Shroom",
             "mystery?": false,
+            "sell price": 50,
             "ingredients": [
                 ["Cake Mix", "Life Shroom"],
                 ["Cake Mix", "Ultra Shroom"]
@@ -510,6 +556,7 @@
         {
             "name": "Tasty Tonic",
             "mystery?": true,
+            "sell price": 1,
             "ingredients": [
                 ["Apple", "Honey Syrup"],
                 ["Blue Berry", "Honey Syrup"],
@@ -527,6 +574,7 @@
         {
             "name": "Thunder Rage",
             "mystery?": true,
+            "sell price": 8,
             "ingredients": [
                 ["Dried Fruit", "Volt Shroom"]
             ]
@@ -534,6 +582,7 @@
         {
             "name": "Volt Shroom",
             "mystery?": true,
+            "sell price": 7,
             "ingredients": [
                 ["Dried Fruit", "Life Shroom"],
                 ["Dried Fruit", "Mushroom"],
@@ -547,6 +596,7 @@
         {
             "name": "Yoshi Cookie",
             "mystery?": false,
+            "sell price": 20,
             "ingredients": [
                 ["Cake Mix", "Melon"]
             ]
@@ -554,6 +604,7 @@
         {
             "name": "Yummy Meal",
             "mystery?": false,
+            "sell price": 15,
             "ingredients": [
                 ["Dried Fruit", "Dried Pasta"],
                 ["Dried Fruit", "Iced Potato"],
